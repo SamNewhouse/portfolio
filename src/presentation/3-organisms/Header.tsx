@@ -1,20 +1,23 @@
-import React, { FC, memo, PropsWithChildren, ReactNode } from "react";
+import { FC, memo } from "react";
+import Code from "../1-atoms/icons/Code";
+import MenuItem from "../1-atoms/MenuItem";
+import RightMenu from "../2-molecules/RightMenu";
 
 interface Props {
-  children?: ReactNode;
   className?: string;
 }
 
-const Header: FC<Props> = ({ children, className }) => {
+const Header: FC<Props> = ({ className }) => {
   return (
     <>
-      <div
-        className={`max-w-screen-lg mx-auto${className ? " " + className : ""}`}
-      >
-        {children}
-      </div>
+      <header className={`px-4 lg:px-6 h-14 flex items-center${className ? " " + className : ""}`}>
+        <MenuItem className="flex items-center justify-center" textClassName="sr-only" text="Sam Newhouse's Portfolio">
+          <Code />
+        </MenuItem>
+        <RightMenu />
+      </header>
     </>
   );
 };
 
-export default memo<PropsWithChildren<Props>>(Header);
+export default memo<Props>(Header);
