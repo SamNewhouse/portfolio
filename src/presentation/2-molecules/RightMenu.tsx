@@ -1,12 +1,11 @@
-import { FC, memo, PropsWithChildren, ReactNode } from "react";
+import { FC, memo } from "react";
 import MenuItem from "../1-atoms/MenuItem";
 
 interface Props {
-  children?: ReactNode;
   className?: string;
 }
 
-const RightMenu: FC<Props> = ({ children, className }) => {
+const RightMenu: FC<Props> = ({ className }) => {
   return (
     <>
         <nav className={`ml-auto flex gap-4 sm:gap-6${className ? " " + className : ""}`}>
@@ -18,4 +17,4 @@ const RightMenu: FC<Props> = ({ children, className }) => {
   );
 };
 
-export default memo<PropsWithChildren<Props>>(RightMenu);
+export default memo<Props>(RightMenu);

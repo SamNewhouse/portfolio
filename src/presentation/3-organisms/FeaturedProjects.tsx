@@ -18,11 +18,31 @@ const FeaturedProjects: FC<Props> = ({ className }) => {
                 </p>
               </div>
             </div>
-            <div className="mx-auto grid max-w-6xl grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
-              <Card className="h-full w-full" imgUrl="https://images.unsplash.com/photo-1542831371-29b0f74f9713" cardName="Project 1" cardDescription="A web application that helps users manage their tasks and projects more efficiently." />
-              <Card className="h-full w-full" imgUrl="https://images.unsplash.com/photo-1511376777868-611b54f68947" cardName="Project 2" cardDescription="A mobile app that helps users track their fitness activities and progress." />
-              <Card className="h-full w-full" imgUrl="https://images.unsplash.com/photo-1517512006864-7edc3b933137" cardName="Project 3" cardDescription="A web-based dashboard that provides real-time analytics and insights for businesses." />
-              
+            <div className="mx-auto grid max-w-6xl grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 place-items-center">
+              <Card
+                cardHeaderClassName="flex flex-col space-y-1.5"
+                imgUrl="https://ipfs.filebase.io/ipfs/QmfZDprXJocwPEM86dSYGhLq9sqKrUSQFQ4i8Y1pvYJfHe"
+                cardName="TPICAP"
+                cardDescription="A web application that helps users manage their tasks and projects more efficiently."
+              />
+              <Card
+                cardHeaderClassName="flex flex-col space-y-1.5"
+                imgUrl="https://ipfs.filebase.io/ipfs/Qmb5gdKKEF1hqGUEVB6R7RNwssVYDUP1q1ygB4PFuTxydb"
+                cardName="Expression Insurance"
+                cardDescription="A web-based dashboard that provides real-time analytics and insights for businesses."
+              />
+              <Card
+                cardHeaderClassName="flex flex-col space-y-1.5"
+                imgUrl="https://ipfs.filebase.io/ipfs/QmZibhwgdoBuHyupnxc5m4KLy45T8gJnYEyN9D2eLCqu2d"
+                cardName="Collectivly"
+                cardDescription="A mobile app that helps users track their fitness activities and progress."
+              />
+              <Card
+                cardHeaderClassName="flex flex-col space-y-1.5"
+                imgUrl="https://ipfs.filebase.io/ipfs/QmV3ZyLhs7xT7yTmYKDfPf9TSxVQdBvEBBkhw3pDUSdgtU"
+                cardName="Shieldpay"
+                cardDescription="A web-based dashboard that provides real-time analytics and insights for businesses."
+              />
             </div>
           </div>
         </section>

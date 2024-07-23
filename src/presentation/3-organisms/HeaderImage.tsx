@@ -7,7 +7,7 @@ interface Props {
 const HeaderImage: FC<Props> = ({ className }) => {
   return (
     <>
-      <section className={`w-full h-[calc(100dvh-(6.9rem*2))] bg-cover bg-center bg-no-repeat relative transition-all${className ? " " + className : ""}`}>
+      <section className={`w-full h-[calc(100dvh/2)] sm:h-[calc(100dvh/1.5)] md:h-[calc(100dvh-(6.9rem*2))] bg-cover bg-center bg-no-repeat relative${className ? " " + className : ""}`}>
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{ backgroundImage: `url('https://images.unsplash.com/photo-1498050108023-c5249f4df085')` }}

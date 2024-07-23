@@ -1,4 +1,6 @@
 import { NextPage } from "next";
+import AboutMe from "../3-organisms/AboutMe";
+import Contact from "../3-organisms/Contact";
 import FeaturedProjects from "../3-organisms/FeaturedProjects";
 import Header from "../3-organisms/Header";
 import HeaderImage from "../3-organisms/HeaderImage";
@@ -16,7 +18,9 @@ const HomePage: NextPage<Props> = () => {
         <main className="flex-1">
           <HeaderImage />
           <FeaturedProjects />
-      </main>
+          <AboutMe />
+          <Contact />
+        </main>
       </BaseLayout>
     </>
   );
