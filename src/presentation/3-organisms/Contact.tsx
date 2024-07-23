@@ -8,7 +8,7 @@ interface Props {
 const Contact: FC<Props> = ({ className }) => {
   return (
     <>
-      <section className={`w-full py-12 md:py-24 lg:py-32 border-t${className ? " " + className : ""}`}>
+      <section className={`w-full py-12 md:py-24 lg:py-32 border-t${className ? " " + className : ""}`} id="contact">
         <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 lg:gap-10">
           <div className="space-y-3">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Let's Connect</h2>
@@ -21,13 +21,17 @@ const Contact: FC<Props> = ({ className }) => {
               href="#"
               className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
               prefetch={false}
+              target=""
+              rel="noopener"
             >
               Email Me
             </Link>
             <Link
-              href="#"
+              href="https://linkedin.com/in/snewhouse"
               className="inline-flex h-10 items-center justify-center rounded-md border border-input bg-background px-8 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
               prefetch={false}
+              target="_blank"
+              rel="noopener"
             >
               LinkedIn
             </Link>

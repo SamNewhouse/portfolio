@@ -14,17 +14,14 @@ const AboutMe: FC<Props> = ({ className }) => {
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">About Me</h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I'm a software developer with a passion for creating innovative and user-friendly applications. I have
-                  a strong background in full-stack web development, with expertise in technologies like React, Node.js,
-                  and MongoDB. I'm constantly learning and exploring new technologies to improve my skills and deliver
-                  the best possible solutions for my clients.
+                As a Software Engineer based in Brighton, I specialise in leveraging TypeScript and AWS services to create advanced web applications. With a robust background in both front-end and back-end development, I excel in designing intuitive user experiences and scalable architectures. I work closely with teams to deliver innovative solutions that cater to the evolving needs of our users.
                 </p>
               </div>
             </div>
             <div className="mx-auto grid max-w-5xl grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
               <Card
                 cardName="Front-end Development"
-                cardDescription="I have extensive experience in building responsive and interactive user interfaces using modern front-end frameworks like React, Vue.js, and Angular."
+                cardDescription="I have extensive experience in building responsive and interactive user interfaces using modern front-end frameworks like React and Vue.js"
               />
               <Card
                 cardName="Back-end Development"
@@ -32,7 +29,7 @@ const AboutMe: FC<Props> = ({ className }) => {
               />
               <Card
                 cardName="DevOps and Cloud"
-                cardDescription="I have experience in setting up and managing infrastructure on cloud platforms like AWS, Azure, and Google Cloud, as well as automating deployment processes using tools like Docker and Kubernetes."
+                cardDescription="I have experience in setting up and managing infrastructure on cloud platforms like AWS, as well as automating deployment processes using tools such as Docker and Kubernetes."
               />
             </div>
           </div>

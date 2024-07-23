@@ -1,13 +1,15 @@
 {
-  "name": "create-nttb",
-  "version": "2.2.4",
-  "description": "An opinionated NextJs, Typescript and Tailwind boilerplate using the Atomic Design Methodology for presentation components",
+  "name": "portfolio",
+  "version": "1.0.5",
+  "description": "Sam Newhouse Portfolio",
   "keywords": [
     "nextjs",
     "typescript",
     "tailwindcss",
     "boilerplate",
-    "atomic-design"
+    "atomic-design",
+    "portfolio",
+    "Sam Newhouse"
   ],
   "scripts": {
     "dev": "next dev",
@@ -15,24 +17,20 @@
     "start": "next start"
   },
   "dependencies": {
-    "clsx": "^2.1.1",
     "next": "14.1.4",
     "react": "^18",
-    "react-dom": "^18",
-    "tailwind-merge": "^2.4.0",
-    "tailwindcss-animate": "^1.0.7"
+    "react-dom": "^18"
   },
   "devDependencies": {
     "@types/node": "^20",
-    "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/react": "^18",
     "autoprefixer": "^10.0.1",
+    "clsx": "^2.1.1",
     "postcss": "^8",
+    "tailwind-merge": "^2.4.0",
     "tailwindcss": "^3.3.0",
     "typescript": "^5"
   },
-  "author": "Sam Newhouse (https://github.com/SamNewhouse)",
-  "bin": {
-    "create": "./bin/create.js"
-  }
+  "author": "Sam Newhouse (https://github.com/SamNewhouse)"
 }
