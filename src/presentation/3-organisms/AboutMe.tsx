@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { FC, memo } from "react";
 import Card from "../2-molecules/Card";
 
@@ -8,7 +9,7 @@ interface Props {
 const AboutMe: FC<Props> = ({ className }) => {
   return (
     <>
-      <section className={`w-full py-12 md:py-24 lg:py-32 bg-muted${className ? " " + className : ""}`} id="about">
+      <section className={`w-full py-12 md:py-24 lg:pt-24 lg:pb-20 bg-muted${className ? " " + className : ""}`} id="about">
           <div className="space-y-12 px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
@@ -31,6 +32,25 @@ const AboutMe: FC<Props> = ({ className }) => {
                 cardName="DevOps and Cloud"
                 cardDescription="I have experience in setting up and managing infrastructure on cloud platforms like AWS, as well as automating deployment processes using tools such as Docker and Kubernetes."
               />
+            </div>
+        </div>
+        <div className="mt-14 px-4 md:px-6">
+            <div className="flex flex-col items-center justify-center space-y-4 text-center">
+              <div className="w-full">
+                <h2 className="text-2xl font-bold tracking-tighter sm:text-4xl mb-3">Curriculum vitae</h2>
+              <div className="flex items-center justify-center p-6">
+                <Link
+                  href="https://ipfs.filebase.io/ipfs/Qmc5esnuchwP18ZTSnthRHPEFcAjgH9v4XQZ5eKZJtkjRU"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <img
+                    className="drop-shadow-[0_0_30px_rgba(0,0,0,0.25)] rounded-xl overflow-hidden hover:scale-[104%]"
+                    src="https://ipfs.filebase.io/ipfs/QmWFPmYESoteVXXBMMQ35z6EiMSMWH2d2mF2PLLESfJhuS"
+                  />
+                  </Link>
+                </div>
+              </div>
             </div>
           </div>
         </section>

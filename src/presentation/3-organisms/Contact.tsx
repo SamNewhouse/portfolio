@@ -8,7 +8,7 @@ interface Props {
 const Contact: FC<Props> = ({ className }) => {
   return (
     <>
-      <section className={`w-full py-12 md:py-24 lg:py-32 border-t${className ? " " + className : ""}`} id="contact">
+      <section className={`w-full py-10 md:py-20 lg:py-30 border-t${className ? " " + className : ""}`} id="contact">
         <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 lg:gap-10">
           <div className="space-y-3">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Let's Connect</h2>
