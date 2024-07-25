@@ -26,18 +26,21 @@ const FeaturedProjects: FC<Props> = ({ className }) => {
                 cardDescription="Drupal and a website builder plugin by Acquia, utilising a library of individually built components."
               /> */}
               <Card
-                cardHeaderClassName="flex flex-col space-y-1.5"
-                imgUrl="https://ipfs.filebase.io/ipfs/Qmb5gdKKEF1hqGUEVB6R7RNwssVYDUP1q1ygB4PFuTxydb"
-                cardName="Expression Insurance"
-                cardDescription="Next.js, TypeScript, and SASS frontend with a Salesforce backend for data"
-              />
+                  url="https://www.expressioninsurance.co.uk"
+                  cardHeaderClassName="flex flex-col space-y-1.5"
+                  imgUrl="https://ipfs.filebase.io/ipfs/Qmb5gdKKEF1hqGUEVB6R7RNwssVYDUP1q1ygB4PFuTxydb"
+                  cardName="Expression Insurance"
+                  cardDescription="Next.js, TypeScript, and SASS frontend with a Salesforce backend for data"
+                />
               <Card
+                url="https://www.collectivly.co"
                 cardHeaderClassName="flex flex-col space-y-1.5"
                 imgUrl="https://ipfs.filebase.io/ipfs/QmZibhwgdoBuHyupnxc5m4KLy45T8gJnYEyN9D2eLCqu2d"
                 cardName="Collectivly"
                 cardDescription="Next.js, TypeScript, and SASS frontend with AWS-powered microservices using the Serverless framework."
               />
               <Card
+                url="https://www.shieldpay.com"
                 cardHeaderClassName="flex flex-col space-y-1.5"
                 imgUrl="https://ipfs.filebase.io/ipfs/QmV3ZyLhs7xT7yTmYKDfPf9TSxVQdBvEBBkhw3pDUSdgtU"
                 cardName="Shieldpay"
