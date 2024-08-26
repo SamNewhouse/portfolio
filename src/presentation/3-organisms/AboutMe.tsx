@@ -40,7 +40,7 @@ const AboutMe: FC<Props> = ({ className }) => {
                 <h2 className="text-2xl font-bold tracking-tighter sm:text-4xl mb-3">Curriculum vitae</h2>
               <div className="flex items-center justify-center p-6">
                 <Link
-                  href="https://ipfs.filebase.io/ipfs/Qmc5esnuchwP18ZTSnthRHPEFcAjgH9v4XQZ5eKZJtkjRU"
+                  href="https://ipfs.filebase.io/ipfs/QmPrhTmTv25CW2fHA9dxWtsxALNM8zKPczg6PUWSGATxG4"
                   target="_blank"
                   rel="noopener"
                 >
