@@ -40,13 +40,13 @@ const AboutMe: FC<Props> = ({ className }) => {
                 <h2 className="text-2xl font-bold tracking-tighter sm:text-4xl mb-3">Curriculum vitae</h2>
               <div className="flex items-center justify-center p-6">
                 <Link
-                  href="https://ipfs.filebase.io/ipfs/QmPrhTmTv25CW2fHA9dxWtsxALNM8zKPczg6PUWSGATxG4"
+                  href="https://apparent-sapphire-ape.myfilebase.com/ipfs/QmbvH8GBbvZWPTL3pmSdZgLR2wbhqVyKhd4wUqmKaStcSG"
                   target="_blank"
                   rel="noopener"
                 >
                   <img
                     className="drop-shadow-[0_0_30px_rgba(0,0,0,0.25)] rounded-xl overflow-hidden hover:scale-[104%]"
-                    src="https://ipfs.filebase.io/ipfs/QmWFPmYESoteVXXBMMQ35z6EiMSMWH2d2mF2PLLESfJhuS"
+                    src="https://apparent-sapphire-ape.myfilebase.com/ipfs/QmWFPmYESoteVXXBMMQ35z6EiMSMWH2d2mF2PLLESfJhuS"
                   />
                   </Link>
                 </div>
