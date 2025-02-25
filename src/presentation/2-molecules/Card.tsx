@@ -15,7 +15,7 @@ interface Props {
 
 const Card: FC<Props> = ({ url, cardHeaderClassName, cardContentClassName, imgUrl, imgWidth, cardName, cardDescription }) => {
   const cardComponent = (
-    <div className="rounded-lg border bg-card text-card-foreground shadow-sm h-full w-full">
+    <div className="rounded-lg border border-gray-200 bg-card text-card-foreground shadow-sm h-full w-full">
       {imgUrl && (
         <CardHeader
           cardHeaderClassName={cardHeaderClassName}
