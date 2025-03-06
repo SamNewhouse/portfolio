@@ -61,7 +61,7 @@ const AboutMe: FC<Props> = ({ className }) => {
                   />
                 </Link>
                 <Link
-                  href="https://drive.google.com/uc?export=download&id=1VciWQFS5k5j3a59YpwatTO3Ux8IDc-92"
+                  href="https://drive.google.com/uc?export=download&id=1btdzRaqVKzdS_Ys4j2rJ7iSWXvzuPAPq"
                   className="hover:underline"
                   rel="noopener"
                 >
