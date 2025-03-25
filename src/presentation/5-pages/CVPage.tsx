@@ -10,7 +10,7 @@ interface Props {
   //
 }
 
-const HomePage: NextPage<Props> = () => {
+const CVPage: NextPage<Props> = () => {
   return (
     <>
       <CVLayout className="CV">
@@ -216,4 +216,4 @@ const HomePage: NextPage<Props> = () => {
   );
 };
 
-export default HomePage;
+export default CVPage;

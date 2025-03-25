@@ -7,8 +7,8 @@ interface Props {
   period: string;
   location: string;
   responsibilities: string[];
-  achievements: string[];
-  technologies: string[];
+  achievements?: string[];
+  technologies?: string[];
 }
 
 const Job: FC<Props> = ({
@@ -46,24 +46,28 @@ const Job: FC<Props> = ({
             ))}
           </ul>
         </div>
-        <div className="mb-2">
-          <h4 className="font-medium text-sm text-gray-800">
-            Key Achievements:
-          </h4>
-          <ul className="list-disc list-inside">
-            {achievements.map((achievement, index) => (
-              <li key={index} className="text-sm text-gray-600">
-                {achievement}
-              </li>
-            ))}
-          </ul>
-        </div>
-        <div>
-          <h4 className="font-medium text-sm text-gray-800">
-            Technologies Used:
-          </h4>
-          <p className="text-sm text-gray-600">{technologies.join(", ")}</p>
-        </div>
+        {achievements && (
+          <div className="mb-2">
+            <h4 className="font-medium text-sm text-gray-800">
+              Key Achievements:
+            </h4>
+            <ul className="list-disc list-inside">
+              {achievements.map((achievement, index) => (
+                <li key={index} className="text-sm text-gray-600">
+                  {achievement}
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+        {technologies && (
+          <div>
+            <h4 className="font-medium text-sm text-gray-800">
+              Technologies Used:
+            </h4>
+            <p className="text-sm text-gray-600">{technologies.join(", ")}</p>
+          </div>
+        )}
       </div>
     </>
   );
