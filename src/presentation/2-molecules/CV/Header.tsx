@@ -7,7 +7,7 @@ interface Props {
   phone: string;
   email: string;
   linkedin: string;
-  github: string;
+  github?: string;
 }
 
 const Header: FC<Props> = ({
@@ -31,7 +31,7 @@ const Header: FC<Props> = ({
         <div className="my-1 text-sm flex flex-wrap gap-4">
           <p>{phone}</p>
           <p>{email}</p>
-          <p>{github}</p>
+          {github && <p>{github}</p>}
           <p>{linkedin}</p>
         </div>
       </header>
