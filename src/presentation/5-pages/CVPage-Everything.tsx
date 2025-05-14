@@ -19,9 +19,8 @@ const CVPageEverything: NextPage<Props> = () => {
             name="Sam Newhouse"
             location="Brighton / United Kingdom"
             phone="07867 424 919"
-            email="hello@samnewhouse.co.uk"
+            email="samnewhouse@outlook.com"
             linkedin="linkedin.com/in/snewhouse"
-            github="github.com/SamNewhouse"
           />
           <main className="flex-grow">
             <Section>
