@@ -37,6 +37,19 @@ const CVPageEverything: NextPage<Props> = () => {
               className="current-employment"
             >
               <Job
+                title="Administrator"
+                company="Bearded Bros"
+                period="Jul 2025 - Present"
+                location="Brighton"
+                responsibilities={[
+                  "Conducted video calls to assess and calculate clients move volumes for accurate planning.",
+                  "Booked and coordinated client appointments, optimising removals team schedules.",
+                  "Acted as a point of contact for clients, providing clear information and resolving issues promptly.",
+                  "Managed incoming calls and emails, responding promptly to client inquiries.",
+                  "Assisted in preparing move documentation and quotations to support accurate billing and planning.",
+                ]}
+              />
+              <Job
                 title="Software Engineer"
                 company="Freelance"
                 period="Nov 2023 - Present"
@@ -45,10 +58,8 @@ const CVPageEverything: NextPage<Props> = () => {
                   "Developed, maintained, and optimised a variety of web applications, from small projects to large-scale platforms.",
                   "Worked across both new and legacy codebases, improving performance, security, and maintainability.",
                   "Collaborated closely with clients to define project requirements and deliver tailored software solutions.",
-                ]}
-                achievements={[
-                  "Optimised legacy applications, reducing load times by roughly 40% and improving maintainability.",
-                  "Led the setup of new projects, defining architecture and best practices for long-term scalability.",
+                  "Applied version control and CI/CD pipelines to streamline deployment and collaboration.",
+                  "Implemented automated testing and monitoring to improve system reliability and reduce downtime.",
                 ]}
               />
               <Job
@@ -76,6 +87,12 @@ const CVPageEverything: NextPage<Props> = () => {
                   "Led development of a Serverless microservices architecture, enhancing flexibility and maintainability.",
                 ]}
               />
+            </Section>
+          </main>
+        </SinglePage>
+        <SinglePage className="Page">
+          <main className="flex-grow">
+            <Section>
               <Job
                 title="Full-stack Developer"
                 company="The Unit"
@@ -88,12 +105,6 @@ const CVPageEverything: NextPage<Props> = () => {
                   "Managed cloud infrastructure and implemented DevOps best practices to improve deployment workflows.",
                 ]}
               />
-            </Section>
-          </main>
-        </SinglePage>
-        <SinglePage className="Page">
-          <main className="flex-grow">
-            <Section>
               <Job
                 title="Administrator"
                 company="SmartLet"
@@ -117,18 +128,6 @@ const CVPageEverything: NextPage<Props> = () => {
                   "Assisted with inventory control, ensuring smooth store operations.",
                   "Managed deliveries and optimised storage organisation for efficiency.",
                   "Coordinated stock replenishment and ensured timely product availability on the sales floor.",
-                ]}
-              />
-
-              <Job
-                title="Web Administrator"
-                company="Berkeley Group"
-                period="Sept 2013 - Aug 2014"
-                location="Woking"
-                responsibilities={[
-                  "Provided administrative support to the property development team.",
-                  "Assisted in document management, scheduling, and customer correspondence.",
-                  "Supported project coordination and data entry for property developments.",
                 ]}
               />
             </Section>
